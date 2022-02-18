@@ -1,7 +1,20 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+@import './tools/vars';
+@import './tools/mixins';
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+@import './base/common';
+@import './components/button';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/product';
+@import './layout/prices';
+@import './layout/quote';
+@import './layout/examples';
+@import './layout/connectivity';
+@import './layout/true-mesh';
+@import './layout/features';
+@import './layout/systems';
+@import './layout/product-info';
+@import './layout/support';
+@import './layout/connected';
+@import './layout/footer';
